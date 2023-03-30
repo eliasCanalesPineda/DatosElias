@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Arranceles">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp">
+        <TextView
+            android:layout_width="410dp"
+            android:layout_height="50dp"
+            android:gravity="center_horizontal"
+            android:text="Mis Arranceles"
+            android:textSize="20dp"
+            android:textStyle="normal"/>
+    </LinearLayout>
+    <ImageView
+        android:layout_width="260dp"
+        android:layout_height="270dp"
+        android:src="@drawable/elias"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="65dp"/>
+    <TextView
+        android:id="@+id/textmostrarpar"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Mis datos"
+        android:textSize="20dp"
+        android:textStyle="normal"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="340dp"/>
+    <TextView
+        android:id="@+id/textmostrargra"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Mis datos"
+        android:textSize="20dp"
+        android:textStyle="normal"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="380dp"/>
+    <TextView
+        android:id="@+id/textmostrarcole"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Mis datos"
+        android:textSize="20dp"
+        android:textStyle="normal"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="420dp"/>
+    <TextView
+        android:id="@+id/textmostraruni"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Mis datos"
+        android:textSize="20dp"
+        android:textStyle="normal"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="460dp"/>
+    <TextView
+        android:id="@+id/textmostrarciclo"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Mis datos"
+        android:textSize="20dp"
+        android:textStyle="normal"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="500dp"/>
+    <TextView
+        android:id="@+id/textmostrarmater"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Mis datos"
+        android:textSize="20dp"
+        android:textStyle="normal"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="540dp"/>
+    <Button
+        android:id="@+id/Ver"
+        android:text="Sito Web"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="590dp"
+        android:layout_gravity="center_horizontal"/>
+</FrameLayout>
